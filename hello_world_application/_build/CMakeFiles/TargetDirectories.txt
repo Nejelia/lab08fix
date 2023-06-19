@@ -1,0 +1,9 @@
+/home/nikls/Lab031/hello_world_application/_build/CMakeFiles/hello_world.dir
+/home/nikls/Lab031/hello_world_application/_build/CMakeFiles/edit_cache.dir
+/home/nikls/Lab031/hello_world_application/_build/CMakeFiles/rebuild_cache.dir
+/home/nikls/Lab031/hello_world_application/_build/formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir
+/home/nikls/Lab031/hello_world_application/_build/formatter_ex_lib_dir/CMakeFiles/edit_cache.dir
+/home/nikls/Lab031/hello_world_application/_build/formatter_ex_lib_dir/CMakeFiles/rebuild_cache.dir
+/home/nikls/Lab031/hello_world_application/_build/formatter_ex_lib_dir/formatter_lib_dir/CMakeFiles/formatter_lib.dir
+/home/nikls/Lab031/hello_world_application/_build/formatter_ex_lib_dir/formatter_lib_dir/CMakeFiles/edit_cache.dir
+/home/nikls/Lab031/hello_world_application/_build/formatter_ex_lib_dir/formatter_lib_dir/CMakeFiles/rebuild_cache.dir
