@@ -1,6 +1,8 @@
 formatter_lib_dir/CMakeFiles/formatter_lib.dir/formatter.cpp.o: \
- /home/nikls/formatter_lib/formatter.cpp /usr/include/stdc-predef.h \
- /home/nikls/formatter_lib/formatter.h /usr/include/c++/11/string \
+ /home/dmitrii/Dmitriiagishev/formatter_lib/formatter.cpp \
+ /usr/include/stdc-predef.h \
+ /home/dmitrii/Dmitriiagishev/formatter_lib/formatter.h \
+ /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

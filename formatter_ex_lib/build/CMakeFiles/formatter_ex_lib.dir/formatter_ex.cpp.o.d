@@ -1,6 +1,8 @@
 CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o: \
- /home/nikls/formatter_ex_lib/formatter_ex.cpp /usr/include/stdc-predef.h \
- /home/nikls/formatter_ex_lib/formatter_ex.h /usr/include/c++/11/string \
+ /home/dmitrii/Dmitriiagishev/formatter_ex_lib/formatter_ex.cpp \
+ /usr/include/stdc-predef.h \
+ /home/dmitrii/Dmitriiagishev/formatter_ex_lib/formatter_ex.h \
+ /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -147,4 +149,4 @@ CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/nikls/formatter_ex_lib/../formatter_lib/formatter.h
+ /home/dmitrii/Dmitriiagishev/formatter_ex_lib/../formatter_lib/formatter.h

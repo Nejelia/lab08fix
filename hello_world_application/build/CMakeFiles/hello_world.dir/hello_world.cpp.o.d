@@ -1,5 +1,5 @@
 CMakeFiles/hello_world.dir/hello_world.cpp.o: \
- /home/nikls/hello_world_application/hello_world.cpp \
+ /home/dmitrii/Dmitriiagishev/hello_world_application/hello_world.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -144,4 +144,4 @@ CMakeFiles/hello_world.dir/hello_world.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/nikls/hello_world_application/../formatter_ex_lib/formatter_ex.h
+ /home/dmitrii/Dmitriiagishev/hello_world_application/../formatter_ex_lib/formatter_ex.h

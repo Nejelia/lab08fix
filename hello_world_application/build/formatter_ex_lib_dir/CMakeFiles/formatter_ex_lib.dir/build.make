@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikls/hello_world_application
+CMAKE_SOURCE_DIR = /home/dmitrii/Dmitriiagishev/hello_world_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikls/hello_world_application/build
+CMAKE_BINARY_DIR = /home/dmitrii/Dmitriiagishev/hello_world_application/build
 
 # Include any dependencies generated for this target.
 include formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/depend.make
@@ -70,18 +70,18 @@ include formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/progress.make
 include formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/flags.make
 
 formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o: formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/flags.make
-formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o: /home/nikls/formatter_ex_lib/formatter_ex.cpp
+formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o: /home/dmitrii/Dmitriiagishev/formatter_ex_lib/formatter_ex.cpp
 formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o: formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikls/hello_world_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o"
-	cd /home/nikls/hello_world_application/build/formatter_ex_lib_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o -MF CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o.d -o CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o -c /home/nikls/formatter_ex_lib/formatter_ex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dmitrii/Dmitriiagishev/hello_world_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o"
+	cd /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o -MF CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o.d -o CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o -c /home/dmitrii/Dmitriiagishev/formatter_ex_lib/formatter_ex.cpp
 
 formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.i"
-	cd /home/nikls/hello_world_application/build/formatter_ex_lib_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikls/formatter_ex_lib/formatter_ex.cpp > CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.i
+	cd /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitrii/Dmitriiagishev/formatter_ex_lib/formatter_ex.cpp > CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.i
 
 formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.s"
-	cd /home/nikls/hello_world_application/build/formatter_ex_lib_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikls/formatter_ex_lib/formatter_ex.cpp -o CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.s
+	cd /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitrii/Dmitriiagishev/formatter_ex_lib/formatter_ex.cpp -o CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.s
 
 # Object files for target formatter_ex_lib
 formatter_ex_lib_OBJECTS = \
@@ -93,19 +93,19 @@ formatter_ex_lib_EXTERNAL_OBJECTS =
 formatter_ex_lib_dir/libformatter_ex_lib.a: formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o
 formatter_ex_lib_dir/libformatter_ex_lib.a: formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/build.make
 formatter_ex_lib_dir/libformatter_ex_lib.a: formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikls/hello_world_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libformatter_ex_lib.a"
-	cd /home/nikls/hello_world_application/build/formatter_ex_lib_dir && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean_target.cmake
-	cd /home/nikls/hello_world_application/build/formatter_ex_lib_dir && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/formatter_ex_lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dmitrii/Dmitriiagishev/hello_world_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libformatter_ex_lib.a"
+	cd /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean_target.cmake
+	cd /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/formatter_ex_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/build: formatter_ex_lib_dir/libformatter_ex_lib.a
 .PHONY : formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/build
 
 formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/clean:
-	cd /home/nikls/hello_world_application/build/formatter_ex_lib_dir && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean.cmake
+	cd /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean.cmake
 .PHONY : formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/clean
 
 formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/depend:
-	cd /home/nikls/hello_world_application/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikls/hello_world_application /home/nikls/formatter_ex_lib /home/nikls/hello_world_application/build /home/nikls/hello_world_application/build/formatter_ex_lib_dir /home/nikls/hello_world_application/build/formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dmitrii/Dmitriiagishev/hello_world_application/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmitrii/Dmitriiagishev/hello_world_application /home/dmitrii/Dmitriiagishev/formatter_ex_lib /home/dmitrii/Dmitriiagishev/hello_world_application/build /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir /home/dmitrii/Dmitriiagishev/hello_world_application/build/formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/depend
 
