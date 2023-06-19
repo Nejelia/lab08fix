@@ -1,3 +1,0 @@
-/home/nikls/Lab031/formatter_lib/_build/CMakeFiles/formatter_lib.dir
-/home/nikls/Lab031/formatter_lib/_build/CMakeFiles/edit_cache.dir
-/home/nikls/Lab031/formatter_lib/_build/CMakeFiles/rebuild_cache.dir
