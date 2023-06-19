@@ -3,44 +3,31 @@ name: CMake
 on:
  push:
   branches: [main]
+  tags: -"v*1.*"
  pull_request:
   branches: [main]
 
+env:
+
+  BUILD_TYPE: Release
 jobs: 
- build_Linux:
+  build:
 
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-  - uses: actions/checkout@v3
-
-  - name: Configure Solver
-    run: cmake ${{github.workspace}}/solver_application/ -B ${{github.workspace}}/solver_application/build
-
-  - name: Build Solver
-    run: cmake --build ${{github.workspace}}/solver_application/build
-
-  - name: Configure HelloWorld
-    run: cmake ${{github.workspace}}/hello_world_application/ -B ${{github.workspace}}/hello_world_application/build
-
-  - name: Build HelloWorld
-    run: cmake --build ${{github.workspace}}/hello_world_application/build
-
- build_Windows:
-
-  runs-on: windows-latest
-
-  steps:
-  - uses: actions/checkout@v3
-
-  - name: Configure Solver
-    run: cmake ${{github.workspace}}/solver_application/ -B ${{github.workspace}}/solver_application/build
-
-  - name: Build Solver
-    run: cmake --build ${{github.workspace}}/solver_application/build
-
-  - name: Configure HelloWorld
-    run: cmake ${{github.workspace}}/hello_world_application/ -B ${{github.workspace}}/hello_world_application/build
-
-  - name: Build HelloWorld
-    run: cmake --build ${{github.workspace}}/hello_world_application/build
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Build
+      run: cmake -H. -B_build -DCPACK_GENERATOR="TGZ" && cmake --build _build --target package &&
+             cd _build && cpack -G "DEB" &&
+             cpack -G "RPM" &&
+             mkdir ../artifacts &&
+             mv *.tar.gz ../artifacts/ &&
+             mv *.deb ../artifacts/ &&
+             mv *.rpm ../artifacts/
+    - name: Publish
+      uses: actions/upload-artifact@v2
+      with:
+        name: debrpm
+        path: artifacts/
